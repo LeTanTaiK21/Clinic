@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+<header th:replace="layout/header :: header"></header>
+
+<div class="container">
+    <h1>Welcome to the Clinic</h1>
+    <p>This is the homepage of our clinic application.</p>
+</div>
+
+<footer th:replace="layout/footer :: footer"></footer>
+</body>
+</html>
